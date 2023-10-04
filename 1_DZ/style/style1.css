@@ -138,3 +138,100 @@ footer {
 .services-dropdown .level-3 li:last-child {
     border-bottom: none;
 }
+/* Общие стили для формы и полей */
+.border_form {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin: 0 auto; /* Добавьте этот стиль для центрирования по горизонтали */
+    text-align: center; /* Добавьте этот стиль для выравнивания текста по центру */
+}
+
+/* Стили для полей ввода */
+.input_button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Добавьте этот стиль для выравнивания текста внутри input по центру */
+}
+
+
+
+.border_form legend {
+    font-weight: bold;
+}
+
+
+/* Стили для выпадающего меню */
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #45a049;
+}
+/* Стили для выпадающего списка */
+.dropdown_button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Стили для опций (options) */
+.dropdown_button option {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Стили для групп (optgroup) */
+.dropdown_button optgroup {
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+/* Стили для активного состояния (когда выпадающий список открыт) */
+.dropdown_button:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

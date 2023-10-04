@@ -18,7 +18,14 @@
     <header>
         <h1 class="level-1">Грузоперевозки</h1>
     </header>
-
+    <div class="dropdown">
+        <button class="dropbtn">Меню</button>
+        <div class="dropdown-content">
+            <a href="#">Главная</a>
+            <a href="#">Услуги</a>
+            <a href="#">Контакты</a>
+        </div>
+    </div>
     <nav>
         <ul>
             <li class="level-2"><a href="#">Главная</a></li>
@@ -26,7 +33,20 @@
             <li class="level-2"><a href="#">Контакты</a></li>
         </ul>
     </nav>
-
+    <select class="dropdown_button">
+        <option value="" disabled selected>Выберите вид перевозок</option>
+        <optgroup label="Грузовые перевозки">
+            <option value="Доставка грузов">Доставка грузов</option>
+            <option value="Международные перевозки">Международные перевозки</option>
+            <option value="Авиаперевозки">Авиаперевозки</option>
+        </optgroup>
+        <optgroup label="Специализированные перевозки">
+            <option value="Перевозка хрупких грузов">Перевозка хрупких грузов</option>
+            <option value="Перевозка опасных грузов">Перевозка опасных грузов</option>
+            <option value="Перевозка тяжеловесных грузов">Перевозка тяжеловесных грузов</option>
+        </optgroup>
+    </select>
+    
     <main>
         <section>
             <h2 class="level-3">О нас</h2>
@@ -110,34 +130,34 @@
             </table>
         </section>
     </main>
-    <input type="button">
-<input type="checkbox">
-<input type="color">
-<input type="date">
-<input type="datetime-local">
-<input type="email">
-<input type="file">
-<input type="hidden">
-<input type="image">
-<input type="month">
-<input type="number">
-<input type="password">
-<input type="radio">
-<input type="range">
-<input type="reset">
-<input type="search">
-<input type="submit">
-<input type="tel">
-<input type="text">
-<input type="time">
-<input type="url">
-<input type="week">
+
+    <fieldset class="border_form">
+        <legend>Личные данные</legend>
+        <label for="firstName">Имя</label>
+        <input class="input_button" type="text" id="firstName">
+
+        <label for="lastName">Фамилия</label>
+        <input class="input_button" type="text" id="lastName">
+
+        <label for="middleName">Отчество</label>
+        <input class="input_button" type="text" id="middleName">
+
+        <label for="birthdate">День рождения</label>
+        <input class="input_button" type="date" id="birthdate">
+    </fieldset>
+
+    <fieldset class="border_form">
+        <legend>Аккаунт</legend>
+        <label for="email">Почта</label>
+        <input class="input_button" type="text" id="email" placeholder="ggg@gmail.com">
+
+        <label for="password">Пароль</label>
+        <input class="input_button" type="password" id="password">
+    </fieldset>
+
 
     <footer>
         <p class="level-5">© 2023 Грузоперевозки</p>
     </footer>
-
-    <script src="scripts\script1.js"></script>
-
-</body>
+</body>    
 </html>
