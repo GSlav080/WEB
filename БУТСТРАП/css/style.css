@@ -1,0 +1,227 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Стили для шапки */
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Стили для навигационной панели */
+
+.navbar {
+    margin-bottom: 20px;
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+/* Стили для карточек */
+
+.card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Стили для уведомлений */
+
+.alert {
+    margin-top: 20px;
+}
+
+/* Стили для кнопок */
+
+.btn-info {
+    background-color: #28c2d9;
+    border-color: #17a2b8;
+}
+
+
+/* Стили для футера */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+}
+/* Общие стили */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+    height: 3000px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sticky-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+
+/* Стили для шапки */
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Стили для навигационной панели */
+
+.navbar {
+    margin-bottom: 20px;
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+/* Стили для карточек */
+
+.card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Стили для уведомлений */
+
+.alert {
+    margin-top: 20px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-success a {
+    color: #0f5132;
+}
+
+/* Стили для кнопок */
+
+
+/* Стили для блока с прокруткой */
+
+.scrollable-block {
+    height: 800px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+
+/* Стили для полосы прокрутки */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.sticky-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+/* Стили для картинок в карточках */
+.carousel-container {
+   
+    max-width: 800px; /* Установите максимальную ширину по вашему усмотрению */
+}
+.card-img-top {
+    max-width: 70%;
+    height: auto;
+}
+
+.carousel-container {
+    margin: 50px auto;
+    max-width: 200px; 
+}
+
+.carousel {
+    border: 20px solid #333; /* Толщина и цвет рамки */
+    border-radius: 20px; /* Радиус скругления углов */
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 70%;
+    border-radius: 10px;
+}

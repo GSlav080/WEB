@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="images/лого.webp" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/broni.css"> <!-- Подключение стилей из файла broni.css -->
+    <title>Бронирование экскурсии</title>
+</head>
+<body>
+<!-- Кнопка для возврата на главную -->
+<a href="index.html" class="btn btn-secondary btn-home">На главную</a>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Бронирование экскурсии</h2>
+        <form>
+            <!-- Форма 1 -->
+            <div class="form-group">
+                <label for="when">Дата и время экскурсии:</label>
+                <input type="datetime-local" class="form-control" id="when" required>
+            </div>
+
+            <!-- Форма 2 -->
+            <div class="form-group">
+                <label for="quantity">Количество человек:</label>
+                <input type="number" class="form-control" id="quantity" required>
+            </div>
+
+            <!-- Форма 3 -->
+            <div class="form-group">
+                <label for="phone">Контактный телефон:</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+
+            <!-- Форма 4 -->
+            <div class="form-group">
+                <label for="name">ФИО:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+
+            <!-- Форма 5 -->
+            <div class="form-group">
+                <label for="optional1">Дополнительное поле (необязательное):</label>
+                <input type="text" class="form-control" id="optional1">
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary">Отправить заявку</button>
+        </form>
+    </div>
+
+</body>
+</html>

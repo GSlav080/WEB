@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/лого.webp" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Экскурсии по Чите</title>
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="bg-primary text-white text-center py-2">
+        <h1>Экскурсии по Чите</h1>
+    </header>
+    
+
+    <!-- Навигационная панель -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Главная</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">О Чите</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Экскурсии</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                    <li>        <a href="login.html" class="btn btn-light">Авторизация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Контент -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Колонка 1 -->
+            <div class="col-md-4">
+                <!-- Карточка -->
+                <div class="card mb-4">
+                    <div id="carouselExampleControls" class="carousel slide mt-4" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/1.webp" class="d-block w-100" alt="Экскурсия 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/3.webp" class="d-block w-100" alt="Экскурсия 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2.jpg" class="card-img-top w-100" alt="Экскурсия 1">
+                            </div>
+                
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">История Читы</h5>
+                        <p class="card-text">Погрузитесь в историю Читы и узнайте удивительные факты.</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!-- Аккордеон -->
+                <div class="accordion" id="accordionExample">
+                    <!-- Аккордеон 1: Архитектурные достопримечательности -->
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    Архитектурные достопримечательности
+                                </button>
+                            </h2>
+                        </div>
+                
+                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Узнайте об интересных зданиях и памятниках Читы:</p>
+                                <ul>
+                                    <li>Площадь Ленина</li>
+                                    <li>Здание Читинской областной думы</li>
+                                    <li>Памятник основателям Дальнего Востока</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                    <!-- Аккордеон 2: Исторические места -->
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    Исторические места
+                                </button>
+                            </h2>
+                        </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Посетите уникальные исторические места Читы:</p>
+                                    <ul>
+                                        <li>Красный мост</li>
+                                        <li>Забайкальский художественный музей</li>
+                                        <li>Дом-музей декабристов</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                    </div>
+                
+                    <!-- Аккордеон 3: Природные красоты -->
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    Природные красоты
+                                </button>
+                            </h2>
+                        </div>
+                
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Погрузитесь в природные чудеса Читы.</p>
+                                <ul>
+                                    <li>Багуловые сопки</li>
+                                    <li>Сосновый бор</li>
+                                    <li>песчаный пляж</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </div>
+
+            <!-- Колонка 3 -->
+            <div class="col-md-4">
+                <!-- Уведомление -->
+                <div class="alert alert-success" role="alert">
+                    Планируйте свою экскурсию и открывайте новые горизонты!
+                </div>
+
+                <!-- Кнопка -->
+                <a href="broni.html" class="btn btn-info">Забронировать экскурсию</a>
+
+                <!-- Блок с прокруткой -->
+                <div class="scrollable-block">
+                                        <p><img decoding="async" fetchpriority="high" class="aligncenter size-full wp-image-6534" src="http://xn--80aexocohdp.xn--p1ai/wp-content/uploads/17-interesnih-faktov-o-chite-e1567414102910.jpg" alt="Интересные факты о Чите" width="550" height="366" /></p>
+                    <p>Чита — город интересный, но отличающийся суровым климатом. Выглядит он при этом очень стройно и красиво, потому что план городской застройки в своё время<span id="more-6533"></span> создавался настоящими специалистами. Исторический центр Читы неплохо сохранился до наших дней, и в нём хватает старины, чтобы утолить любопытство заезжего туриста.</p><script data-noptimize="" data-wpfc-render="false">
+                    fpm_start( "true" );
+                    </script>
+
+                    <h3 style="text-align: center;">Интересные факты о Чите<del></del></h3>
+                    <ol>
+                    <li>Некогда она носила другие названия — &#171;Плотбище&#187;, &#171;Плоты&#187; и &#171;Читинская слобода&#187;.</li>
+                    <li>Название город получил в честь реки Читы, на берегу которой он стоит.</li>
+                    <li>После восстания декабристов некоторые из них были сосланы именно в Читу. Один из них даже разработал план городской застройки, взяв за основу план Петербурга (см. <a href="http://xn--80aexocohdp.xn--p1ai/10-%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b5%d1%81%d0%bd%d1%8b%d1%85-%d1%84%d0%b0%d0%ba%d1%82%d0%be%d0%b2-%d0%be-%d0%b4%d0%b5%d0%ba%d0%b0%d0%b1%d1%80%d0%b8%d1%81%d1%82%d0%b0%d1%85/">10 интересных фактов о декабристах</a>).</li>
+                    <li>Основана Чита была ещё в середине 17-го века, но при каких обстоятельствах, никто достоверно не знает. На этот счёт ходят самые разные легенды.</li>
+                    <li>Географически этот город находится практически в самом центре Забайкалья.</li>
+                    <li>По численности населения Чита не входит даже в топ-50 городов России, а вот по площади занимает 11 место.</li>
+                    <li>Раньше в черте города находилось два древних озера, оставшихся ещё с эпохи плейстоцена, но одно из них в наши дни пересохло (см. <a href="http://xn--80aexocohdp.xn--p1ai/15-%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b5%d1%81%d0%bd%d1%8b%d1%85-%d1%84%d0%b0%d0%ba%d1%82%d0%be%d0%b2-%d0%be%d0%b1-%d0%be%d0%b7%d1%91%d1%80%d0%b0%d1%85/">15 интересных фактов об озёрах</a>).</li>
+                    <li>Фактическая зима в Чите длится вдвое дольше календарной.</li>
+                    <li>Из-за резко континентального климата летом тут бывает очень жарко, и зимой очень холодно. Рекорды составляют +43,2 и -49,6 градусов соответственно.</li>
+                    <li>В Чите живут представители более чем сотни разных национальностей.</li>
+                    <li>Здесь обнаружены свидетельства проживания первобытных людей ещё в незапамятные времена.</li>
+                    <li>Чита некогда служила местом ссылки. Знаменитое &#171;Во глубине Сибирских руд&#8230;&#187; А. С. Пушкина было написано именно об этом городе.</li>
+                    <li>Среднегодовая температура воздуха в Чите ниже 0 градусов.</li>
+                    <li>В 2015 и 2016 годах Чита занимала первое среди всех российских городов место по уровням загрязнения воздуха. С экологией тут большие проблемы (см. <a href="http://xn--80aexocohdp.xn--p1ai/12-%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b5%d1%81%d0%bd%d1%8b%d1%85-%d1%84%d0%b0%d0%ba%d1%82%d0%be%d0%b2-%d0%be%d0%b1-%d1%8d%d0%ba%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d0%b8/">12 интересных фактов об экологии</a>).</li>
+                    <li>В Чите 785 улиц.</li>
+                    <li>Оригинальный читинский герб был утверждён последним российским императором, Николаем II, за 4 года до революции. В 1994 году его восстановили в правах.</li>
+                    <li>Здесь проживают представители разных религий, но наиболее широко распространены буддизм и православие.</li>
+                    </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- Карусель -->
+
+
+    <!-- Модальное окно -->
+    <button type="button" class="btn btn-primary mt-4 sticky-btn" data-toggle="modal" data-target="#exampleModal">
+        Задать вопрос
+    </button>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Задать вопрос</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="question">Ваш вопрос:</label>
+                            <textarea class="form-control" id="question" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="bg-dark text-white text-center py-2 mt-4">
+        &copy; 2023 Экскурсии по Чите
+    </footer>
+
+
+</body>
+</html>

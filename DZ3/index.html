@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ваше имя">
+    <meta name="description" content="Информация о городе Чита">
+    <title>Город Чита</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="chita-foto-goroda-3.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <h1><strong>Город Чита</strong></h1>
+    </header>
+
+    <!-- Основное содержание -->
+    <main class="container">
+
+        <!-- Введение о Чите -->
+        <section class="container_1">
+            <div class="text">
+                <p><em><strong>Город Чита</strong></em></p>
+                <p>Чита — это крупный административный центр и культурное сердце Забайкальского края. Расположенный в
+                    живописной природной среде, город богат историей, достопримечательностями и традициями.</p>
+            </div>
+            <div class="image">
+                <img src="chita-foto-goroda-3.jpg" width="200" alt="Город Чита">
+            </div>
+        </section>
+
+        <!-- Ключевые события -->
+        <section>
+            <h2>Ключевые события в истории Читы:</h2>
+
+            <ul class="event-list">
+                <li class="event-item">
+                    <h3 class="event-title">Год 1</h3>
+                    <p class="event-description">Описание важного события в истории Читы.</p>
+                </li>
+                <li class="event-item">
+                    <h3 class="event-title">Год 2</h3>
+                    <p class="event-description">Другое значимое событие в истории Читы.</p>
+                </li>
+                <!-- Добавьте больше событий здесь -->
+            </ul>
+        </section>
+
+        <!-- Информация о Чите -->
+        <section>
+            <h2>О городе Чита</h2>
+
+            <table>
+                <tr>
+                    <th>Факт</th>
+                    <th>Описание</th>
+                </tr>
+                <tr>
+                    <td>Расположение</td>
+                    <td>Чита, Россия</td>
+                </tr>
+                <tr>
+                    <td>Население</td>
+                    <td>Приблизительно XXX,XXX (на 2022 год)</td>
+                </tr>
+                <tr>
+                    <td>Основание</td>
+                    <td>Город основан в год основания.</td>
+                </tr>
+                <tr>
+                    <td>Историческое значение</td>
+                    <td>Чита имеет огромное историческое значение как ключевой пункт на Забайкальской железной дороге и
+                        исторический центр региона.</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Дополнительные разделы с информацией -->
+        <section>
+            <h2>Достопримечательности и аттракционы</h2>
+            <p>Город Чита предлагает множество интересных мест для посещения, включая музеи, памятники, парки и
+                природные аттракции. Некоторые из них включают в себя:</p>
+            <ul>
+                <li>Музей истории Читы</li>
+                <li>Памятник Ленину</li>
+                <li>Читинский зоопарк</li>
+                <li>Парк "Золотая Долина"</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Культура и искусство</h2>
+            <p>Чита богата культурными событиями и искусственными выражениями. Город имеет несколько театров,
+                галерей и культурных центров, которые оживляют культурную сцену региона. Местные художники и
+                музыканты активно внесли свой вклад в искусство.</p>
+        </section>
+
+        <!-- Форма обратной связи -->
+        <section>
+            <h2>Обратная связь</h2>
+            <p><em>Пожалуйста, заполните форму, если у вас есть отзывы о сайте города Чита. Обязательные поля помечены <span
+                    style="color: red;">*</span></em></p>
+            <form action="feedback" method="POST">
+                <fieldset class="border">
+                    <legend>
+                        <div><h2>Форма для заполнения</h2></div>
+                    </legend>
+
+                    <div><p>Имя:</p></div>
+                    <input type="text" name="user_name">
+                    <button type="button" class="button_form"><p class="text_button">Очистить</p></button> &emsp;
+
+                    <div><p>Email: <span style="color: red;">*</span></p></div>
+                    <input type="text" name="user_email">
+                    <button type="button" class="button_form"><p class="text_button">Очистить</p></button>
+                    <br>
+
+                    <div class="text_in_comment"><p>Отправлять уведомления о новых статьях? <span style="color: red;">*</span></p></div>
+                    <select>
+                        <optgroup>
+                            <option value="no"><p>Нет</p></option>
+                            <option value="yes"><p>Да</p></option>
+                        </optgroup>
+                    </select>
+
+                    <button type="button" class="button_form"><p class="text_button">Отправить</p></button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="container_basement">
+            <!-- Дополнительные элементы подвала, если необходимо -->
+        </div>
+    </footer>
+</body>
+
+</html>
