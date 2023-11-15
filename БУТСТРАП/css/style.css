@@ -198,7 +198,7 @@ header h1 {
 /* Стили для картинок в карточках */
 .carousel-container {
    
-    max-width: 800px; /* Установите максимальную ширину по вашему усмотрению */
+    max-width: 800px; 
 }
 .card-img-top {
     max-width: 70%;
@@ -211,8 +211,8 @@ header h1 {
 }
 
 .carousel {
-    border: 20px solid #333; /* Толщина и цвет рамки */
-    border-radius: 20px; /* Радиус скругления углов */
+    border: 20px solid #333;
+
     overflow: hidden;
 }
 
